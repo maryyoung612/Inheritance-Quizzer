@@ -8,6 +8,7 @@ public class Runner
 			anim.add(new PolarBear());
 			anim.add(new Ostrich());
 			anim.add(new BlueJay());
+			Questions.askQuestions();
 			for(Animal fred:anim)
 				{
 				fred.bearsYoung();
