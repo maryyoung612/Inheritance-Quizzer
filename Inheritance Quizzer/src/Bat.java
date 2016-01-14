@@ -7,5 +7,4 @@ public class Bat extends Mammal
 		noise= "shrek";
 		myFlightBehavior= (FlightBehavior) new CanFly();
 		}
-	
 	}

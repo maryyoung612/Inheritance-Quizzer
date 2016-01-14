@@ -9,13 +9,13 @@ public class Runner
 			anim.add(new Ostrich());
 			anim.add(new BlueJay());
 			Questions.askQuestions();
-			for(Animal fred:anim)
+			/*for(Animal fred:anim)
 				{
 				fred.bearsYoung();
 				fred.eats();
 				fred.makesNoise();
 				fred.myFlightBehavior.flies();
 				System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-				}
+				}*/
 			}
 	}
