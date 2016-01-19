@@ -12,7 +12,7 @@ public class Questions
 				{
 				System.out.println(fred);
 				int answer=userInput.nextInt();
-				if(answer.equals().q.getAnswer())
+				if(answer==q.getAnswer())
 				{
 					
 				}
