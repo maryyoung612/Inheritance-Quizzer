@@ -3,19 +3,15 @@ public class Runner
 	{
 		public static void main(String[] args)
 			{
-			ArrayList <Animal> anim= new ArrayList <Animal>();
-			anim.add(new Bat());
-			anim.add(new PolarBear());
-			anim.add(new Ostrich());
-			anim.add(new BlueJay());
-			Questions.askQuestions();
-			/*for(Animal fred:anim)
+			Questions.askName();
+			Questions.genQuestions();
+			while (Questions.q.size() > 0)
 				{
-				fred.bearsYoung();
-				fred.eats();
-				fred.makesNoise();
-				fred.myFlightBehavior.flies();
-				System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-				}*/
+				System.out.println("               ||||||||||||||||       ");
+				Questions.answerQuestion();
+				Questions.q.remove(0);
+				System.out.println("You have gotten "+Questions.counter+" question(s) right and "+Questions.counter1+" question(s) wrong!");
+				}
+			
 			}
 	}

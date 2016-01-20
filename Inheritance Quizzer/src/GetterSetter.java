@@ -2,8 +2,8 @@ public class GetterSetter
 	{
 	private String content;
 	private String method;
-	private int answer;
-	public GetterSetter(String c, String m, int a)
+	private boolean answer;
+	public GetterSetter(String c, String m, boolean a)
 	{
 	content=c;
 	method=m;
@@ -25,13 +25,14 @@ public class GetterSetter
 		{
 			this.content = content;
 		}
-	public int getAnswer()
+
+	public boolean isAnswer()
 		{
-			return answer;
+		return answer;
 		}
-	public void setAnswer(int answer)
+	public void setAnswer(boolean answer)
 		{
-			this.answer = answer;
+		this.answer = answer;
 		}
 	@Override
 	public String toString()
