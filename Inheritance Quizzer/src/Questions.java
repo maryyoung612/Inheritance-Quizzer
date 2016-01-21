@@ -11,14 +11,14 @@ public class Questions
 			q.add(new GetterSetter("Mammal m =new Animal","m.eats();", false));//2
 			q.add(new GetterSetter("Bird b =new Bird","b.bearsYoung();", true));//3
 			q.add(new GetterSetter("Mammal m =new Mammal","m.bearsYoung();", true));//4
-			q.add(new GetterSetter("Does this code work?"," ", true));//5
+			q.add(new GetterSetter("Does the code work?"," ", true));//5
 			q.add(new GetterSetter("Animal a =new Animal","a.bearsYoung();", false));//6
 			q.add(new GetterSetter("FlightBehavior f =new Animal","f.flies();", false));//7
 			q.add(new GetterSetter("Animal a =new Animal","a.makesNoise(5);", false));//8
 			q.add(new GetterSetter("Bird b =new Mammal","b.eats();", false));//9
 			q.add(new GetterSetter("Mammal m =new Mammal","m.eats();", true));//10
 			q.add(new GetterSetter("Public interface FlightBehavior { public void flies() ","{*some code here*} }", false));//11
-			q.add(new GetterSetter("Mammal m =new Animal","m.hasHair();", true));//12
+			q.add(new GetterSetter("Mammal m =new Animal","m.hasHair();", false));//12
 			q.add(new GetterSetter("Animal a =new Bird","a.eats();", true));//13
 			q.add(new GetterSetter("Mammal m =new Animal","m.bearsYoung();", false));//14
 			q.add(new GetterSetter("Bird b =new Bird","b.bearsYoung(2);", false));//15

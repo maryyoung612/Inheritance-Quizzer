@@ -37,6 +37,6 @@ public class GetterSetter
 	@Override
 	public String toString()
 		{
-			return "*"+content + "~~ method=" + method + "~~ answer=" + answer;
+			return "*"+content + "~~ method=" + method;
 		}
 	}
